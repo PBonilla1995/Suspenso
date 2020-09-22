@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+<script src="/static/js/index.js"></script>
+<title>EMBEBIDOS</title>
+</head>
+<body>
+
+<h1 style="color:rgb(241, 8, 8);">Manejo de sensores</h1>
+<img src="/static/images/iot.png"  alt="user">
+<br></br>
+
+<h1 style="color:blue;">MI Led1-></h><h id="LED_1"></h1>
+<h1 style="color:blue;">MI Led2-></h><h id="LED_2"></h1>
+<h1 style="color:darksalmon;">Historial de los LEDs -------></h><button id="Clave" onclick="MostarDatos()">Abrir</button>
+<pre>Datos Led 1</pre>
+<pre id="Historial"></pre>
+<pre>Datos Led 2</pre>
+<pre id="Historial1"></pre>
+</body>
+</html>
+
